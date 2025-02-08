@@ -1,5 +1,16 @@
 #!/bin/bash
 
+#get only latest:
+shopt -u nullglob  # Ensures empty globs don't pass through as empty strings
+shopt -u globstar  # Disables recursive globbing (if it's enabled)
+latestfile="$(env -i ls -t -- ./mhosts_fngapo*.txt | head -n 1)"
+#-i don't inherit env vars
+if test -z "$latestfile"; then
+  echo "got empty file from list of files"
+  exit 1
+fi
+echo "Found: \"$latestfile\""
+#exit 3
 #must have dev options debug setting turned on and the first try will ask u to accept a key if not already remembered!
-adb push ./mhosts_fngapo*.txt /storage/emulated/0/Download
+adb push "$latestfile" /storage/emulated/0/Download
 adb kill-server
