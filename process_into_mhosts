@@ -1,0 +1,8 @@
+#!/bin/bash
+ddate="$(date +"%d%b%Y")"
+fname="mhosts_fngapo${ddate}.txt"
+cp --reflink=never -- ./hosts "$fname"
+sed -i.pre_sed -E '/^(127\.0\.0\.1|255\.255\.255\.255|::1|fe80::1%lo0|ff00::0|ff02::[1-3])/s/^/# /' -- "$fname"
+cat ./manuallyadded.txt >> "$fname"
+
+

@@ -1,0 +1,4 @@
+in NetGuard on mobile phone, go to: Settings->Backup->Import hosts file, point to this file
+
+now even when nextdns IP isn't linked yet, hosts won't resolve (if the NG patch to NXDOMAIN is applied)
+

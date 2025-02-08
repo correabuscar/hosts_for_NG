@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#must have dev options debug setting turned on and the first try will ask u to accept a key if not already remembered!
+adb push ./mhosts_fngapo*.txt /storage/emulated/0/Download
+adb kill-server

@@ -1,0 +1,154 @@
+
+0.0.0.0 999mobi.com
+0.0.0.0 online.404mobi.com
+0.0.0.0 example.com
+0.0.0.0 asia.pool.ntp.org
+0.0.0.0 incoming.telemetry.mozilla.org
+0.0.0.0 location.services.mozilla.com
+0.0.0.0 statistics.flurrydata.com
+0.0.0.0 boot.b1ab67239.net
+0.0.0.0 app.fota.digitimetech.com
+0.0.0.0 www.myandroidgift.com
+0.0.0.0 prod.51ginkgo.com
+0.0.0.0 voledevice-pa.googleapis.com
+0.0.0.0 t1.hshh.org
+0.0.0.0 t2.hshh.org
+0.0.0.0 t3.hshh.org
+0.0.0.0 south-america.pool.ntp.org
+0.0.0.0 north-america.pool.ntp.org
+0.0.0.0 oceania.pool.ntp.org
+0.0.0.0 europe.pool.ntp.org
+0.0.0.0 pool.ntp.org
+0.0.0.0 clock.via.net
+0.0.0.0 hshh.org
+0.0.0.0 sugg.search.yahoo.com
+0.0.0.0 heartbeat.belkin.com
+0.0.0.0 www.belkin.com
+0.0.0.0 firefox.settings.services.mozilla.com
+
+0.0.0.0 detectportal.firefox.com
+0.0.0.0 detectportal.prod.mozaws.net
+0.0.0.0 prod.detectportal.prod.cloudops.mozgcp.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ipinfo.io
+0.0.0.0 adservice.google.com
+0.0.0.0 cn.bf.serious.li
+0.0.0.0 us.bf.serious.li
+0.0.0.0 collect.serious.li
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 prd-lender.cdp.internal.unity3d.com
+0.0.0.0 thind-prd-knob.data.ie.unity3d.com
+0.0.0.0 thind-gke-usc.prd.data.corp.unity3d.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 conversions.appsflyer.com
+0.0.0.0 api.techet.net
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 ssl-google-analytics.l.google.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 qcc.qualcomm.com
+0.0.0.0 adash.man.aliyuncs.com
+0.0.0.0 httpdns-sc.aliyuncs.com
+0.0.0.0 api.collect.data.intl.miui.com
+0.0.0.0 puu.sh
+0.0.0.0 www.googleadservices.com
+
+#These point to google IPs and same IP is shared between other hosts which you do want to allow, so blocking via NG here will block those hosts that we wanna allow too!
+#0.0.0.0 play-fe.googleapis.com
+#0.0.0.0 userlocation.googleapis.com
+#0.0.0.0 digitalassetlinks.googleapis.com
+#0.0.0.0 people-pa.googleapis.com
+#0.0.0.0 regioninfo-pa.googleapis.com
+#0.0.0.0 discover-pa.googleapis.com
+#0.0.0.0 pai.googlezip.net
+#0.0.0.0 googlezip.net
+#doesn't work with wildcards, but u wish:
+#0.0.0.0 *.googlezip.net
+#0.0.0.0 media.tenor.com
+#doesn't work with wildcards, but u wish:
+#0.0.0.0 *.tenor.com
+#0.0.0.0 tenor.com
+#0.0.0.0 deviceintegritytokens-pa.googleapis.com
+#0.0.0.0 playatoms-pa.googleapis.com
+#0.0.0.0 lamssettings-pa.googleapis.com
+#0.0.0.0 footprints-pa.googleapis.com
+#0.0.0.0 myphonenumbers-pa.googleapis.com
+#0.0.0.0 growth-pa.googleapis.com
+#0.0.0.0 android.l.google.com
+#need this host for any app to can register for notifications(google can see all notification content btw):
+#0.0.0.0 firebaseremoteconfig.googleapis.com
+#unsure if this is needed for anything:
+#0.0.0.0 firestore.googleapis.com
+#trying to block these for now, see how it fares with google play store or other apps:
+0.0.0.0 app-measurement.com
+0.0.0.0 firebase-settings.crashlytics.com
+0.0.0.0 beacons5.gvt3.com
+0.0.0.0 beacons.gvt2.com
+0.0.0.0 beacons.gcp.gvt2.com
+0.0.0.0 beacons-handoff.gcp.gvt2.com
+
+#These point to google IPs and thus hosted on google but it's for other sites so anything can be hosted on them!
+0.0.0.0 cdn.ampproject.org
+0.0.0.0 ampproject.org
+0.0.0.0 amp-reddit-com.cdn.ampproject.org
+#doesn't work with wildcards, but u wish:
+#0.0.0.0 *.ampproject.org
+#block this too for now:
+0.0.0.0 ghs.googlehosted.com
+
+
+0.0.0.0 api.g.micloud.xiaomi.net
+0.0.0.0 find.api.micloud.xiaomi.net
+0.0.0.0 data.mistat.intl.xiaomi.com
+0.0.0.0 hk-file.intel.miui.com
+0.0.0.0 global.video.intl.xiaomi.com
+0.0.0.0 api.launcher.intl.miui.com
+0.0.0.0 api.zhuti.intl.xiaomi.com
+0.0.0.0 cdn.awsing0-fusion.fds.api.mi-img.com
+0.0.0.0 fr.register.xmpush.global.xiaomi.com
+0.0.0.0 privacy.api.intl.miui.com
+0.0.0.0 de-idm.api.io.mi.com
+0.0.0.0 idm.iot.mi.com
+
+0.0.0.0 codepush.appcenter.ms
+0.0.0.0 appcenter.ms
+
+#chatgpt app:
+0.0.0.0 browser-intake-datadoghq.com
+
+#ideogram:
+0.0.0.0 api2.amplitude.com
+0.0.0.0 api.lab.amplitude.com
+0.0.0.0 flag.lab.amplitude.com
+
+#faceboook:
+0.0.0.0 lookaside.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 graph.facebook.com
+
+#when netguard is locked and not already nextdns IP linked (so first time after IP changed) these can be seen in NG as resolved:
+0.0.0.0 mivideo.page.link
+0.0.0.0 api.ad.intl.xiaomi.com
+# ^ reverse dns-ed to:
+0.0.0.0 global-ad-extranet-pri-azams.alb.xiaomi.com
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+# ^ reverse dns-ed to:
+0.0.0.0 extranet-ipv4-pub-azams.alb.xiaomi.com
+#this is used for updates i think:
+#0.0.0.0 jupiter.intl.sys.miui.com
+# ^ reverse dns-ed to the following(just like the sdkconfig.ad one from above):
+0.0.0.0 extranet-ipv4-pub-azams.alb.xiaomi.com
+
+#homtom HT16 hosts I've missed:
+0.0.0.0 s1.fotaservice.com
+0.0.0.0 boot.bdf38ab7e.net
+0.0.0.0 boot.b0c26a25c.net
+0.0.0.0 boot.b43d4691e.net
+#^ the hell is this ^! it's different now, i see it registered 22 dec 2024 and valid until 22 dec 2025
+0.0.0.0 mad.dwphonetest.com
+#this is the check for updates thing from about phone:
+0.0.0.0 fota.redstone.net.cn
+#indirectly blocking these too:
+0.0.0.0 fotaservice.com
+0.0.0.0 bdf38ab7e.net
+
