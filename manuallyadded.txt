@@ -152,3 +152,10 @@
 0.0.0.0 fotaservice.com
 0.0.0.0 bdf38ab7e.net
 
+#This is used only when Security app starts scanning (possibly sends some info like file list? upstream):
+0.0.0.0 adv.sec.intl.miui.com
+#This is used when updating Security app's virus definitions (ie. manually) so allow it if you want up to date virus definitions:
+#0.0.0.0 api.sec.intl.miui.com
+#XXX: TODO: Steven black's list already blocks this though! you need to manually comment it out!
+
+
